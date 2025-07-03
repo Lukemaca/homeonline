@@ -11,7 +11,9 @@ const nextConfig = {
   },
   output: 'standalone',
   experimental: {
-    serverActions: true
+    serverActions: true,
+    runtime: 'edge',
+    serverComponentsExternalPackages: ['@prisma/client']
   }
 }
 

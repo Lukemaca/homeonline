@@ -1,13 +1,14 @@
 "use client"
 
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
 
 import { useLoanInfo } from "../LoanInfoContext"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-export default function Summary() {
+export default async function Summary() {
   const { formData } = useLoanInfo()
 
   const renderSection = (title: string, data: any) => (

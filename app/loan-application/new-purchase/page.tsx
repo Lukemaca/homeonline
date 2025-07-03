@@ -1,6 +1,7 @@
 "use client"
 
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
@@ -19,7 +20,7 @@ import { LoanStep, saveCurrentStep } from "@/lib/loan-application"
 import { useToast } from "@/hooks/use-toast"
 import Link from "next/link" // Import Link for Terms and Conditions and Privacy Policy links
 
-export default function NewPurchaseApplicationPage() {
+export default async function NewPurchaseApplicationPage() {
   const router = useRouter()
   const { toast } = useToast()
   const [activeTab, setActiveTab] = useState("personal")
