@@ -9,7 +9,7 @@ import Image from "next/image"
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Chen",
+      name: "James Mark",
       location: "Sydney, NSW",
       image: "/images/testimonial-sarah.png",
       rating: 5,
@@ -17,7 +17,7 @@ export default function Testimonials() {
       savings: "$12,000",
     },
     {
-      name: "Mark Thompson",
+      name: "Sarah Chen",
       location: "Melbourne, VIC",
       image: "/images/testimonial-mark.png",
       rating: 5,
@@ -25,7 +25,7 @@ export default function Testimonials() {
       savings: "$15,500",
     },
     {
-      name: "James Wilson",
+      name: "James Margaret",
       location: "Brisbane, QLD",
       image: "/images/testimonial-james.png",
       rating: 5,
