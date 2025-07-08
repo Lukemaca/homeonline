@@ -29,7 +29,7 @@ export default function Testimonials() {
       location: "Brisbane, QLD",
       image: "/images/testimonial-james.png",
       rating: 5,
-      text: "As a first-time buyer, I was overwhelmed by all the options. Home Online made it easy and got me a fantastic deal.",
+      text: "As a first-time buyer, I was overwhelmed by all their options. Home Online made it easy and got me a fantastic deal.",
       savings: "$8,200",
     },
   ]
